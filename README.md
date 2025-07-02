@@ -12,6 +12,8 @@ Tech Stack
 - Hardware: Arduino Uno, flex sensors, resistors, OLED display (SH1106), wearable glove
 - Software: Arduino IDE (C++), Python (serial + TTS)
 - Libraries: SH1106.h, pyttsx3, serial
-- 
+  
 Goal
 To bridge the communication gap for non-verbal users through an intuitive, real-time, low-cost gesture translation system.
+
+-imo its really helpful for oral cancer,stroke,paralysed patients
