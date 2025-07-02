@@ -9,7 +9,8 @@ SH1106 display;  // Default constructor, suitable for I2C 128x64 SH1106
 #define INDEX_PIN   A3
 #define MIDDLE_PIN  A2
 #define RING_PIN    A1
-#define THUMB_PIN   2  // Digital pin, digital pin cause arduino only has 6 analog pins and 2 analog i needed for oled display so remaining 4 were for 4 fingers and so thumb digital mai daal diya
+#define THUMB_PIN   2  // Digital pin
+// digital pin cause arduino only has 6 analog pins and 2 analog i needed for oled display so remaining 4 were for 4 fingers and so thumb digital mai daal diya
 
 // === Gesture Definition Structure ===
 struct PhraseGesture {
@@ -23,7 +24,7 @@ struct PhraseGesture {
 
 // === Calibrated Phrase Gestures ===
 PhraseGesture phraseGestures[] = {
-
+//  -------------------------------------pinky-----index-----middle----ring----thumb
   { "I want food",                     104, 110, 410, 422, 375, 420, 378, 390, 0, 0 },
   { "I want water",                    104, 110, 425, 440, 360, 374, 378, 390, 0, 0 },
   { "I want to use the Washroom",      104, 110, 425, 440, 375, 420, 360, 375, 0, 0 },
