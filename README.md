@@ -1,4 +1,5 @@
 # Sign-Language-Translator-Glove
+This project got approved and published on the official website of James Dyson Awards: https://www.jamesdysonaward.org/2025/project/chatterpalm
 This project is a wearable communication aid designed for individuals with speech or hearing impairments. It uses flex sensors embedded in a glove to detect hand gestures, which are interpreted by an Arduino Uno and translated into meaningful phrases like:
 - “I want food”
 - “I want water”
